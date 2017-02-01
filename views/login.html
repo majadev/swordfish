@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Swordfish</title>
+  <script
+  src="https://code.jquery.com/jquery-3.1.1.js"
+  integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+  crossorigin="anonymous"></script>
+  <script src="/registration.js"></script>
+  <link href="css/loginstyle.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+ 
+  <p></p>
+  
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+<h2>SWORDFISH XI</h2>
+<p>Livestream can be found on http://www.rpmedia.se/2016/10/11/swordfish-2016/</p>
+
+<p>Swordfish is the first and greatest annual event in Sweden for Historical European Martial Arts. The first event was held 2006 in Malmö, but ever since then Swordfish has an uninterrupted history of each fall in Gothenburg, on the Swedish west coast. 2016 will be no different in that regard: the event is held 4 – 6 November and is hosted by Gothenburg Historical Fencing School, the GHFS.</br>
+<p> </p>
+Swordfish is unique in many ways. It has become known as a tough event, where the best competitions and competitors of the HEMA world gather. This is combined with intense training and a lot of different classes by renowned tutors to attend. And although that is true for many events, Swordfish hosts instructors and classes that you will not find anywhere else as well as some more well-known faces. It is uniquely Scandinavian as well as European. The event draws fencers, fighters, boxers, wrestlers and other martial artists from around the world during a time of year when there are few other events around. It is a great opportunity to come together, meet friends, train hard and learn new things.</br>
+<p></p>
+Swordfish XI will, as always, feature a lot of social events. We have workshop spaces, the always popular pub/cafeteria and designated times each day for free sparring. Everything is gathered in the same facilities and you will not have to travel around to go to classes or to get some sleep.
+</br>
+<p></p>
+Each year we have participants from all over the world joining in on the fun. Join us in Gothenburg for a couple of days of inspiration, hard work and camaraderie.
+</br>
+<p></p>
+You won’t be alone.</br>
+<p></p>
+Welcome!</p>
+
+The Swordfish crew
+<div id="id01" class="modal">
+  <form class="modal-content animate" method="POST" action="/login">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+     </div>
+
+    <div class="container">
+  <div class="main container">
+  <div class="row">
+    <div class="col-md-6 col-md-offset-3">
+      <h1 class="display-4 m-b-2">Log In</h1>
+      
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input class="form-control" type="text" id="email" placeholder="email" name="email"/>
+        </div>
+        <div class="form-group">
+          <label for="password">Password</label>
+          <input class="form-control" type="password" id="password" placeholder="password" name="password"/>
+        </div>
+        <button class="btn btn-primary" type="submit">Log in</button>
+        </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <p></p></br>
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Not a <a href="/register">member </a> yet?</span>
+    </div>
+  </form>
+</div>
+            </div>
+  </form>
+</div>
+       
+    <p>Not a member yet? <a href="">Sign Up!</a></p>
+  </div>
+</div>
+<script>
+{document.getElementById("lo1").style.display="none";}
+{document.getElementById("ae1").style.display="none";}
+// Get the modal
+var modal = document.getElementById('id01');
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+</script>
+</body>
+</html>

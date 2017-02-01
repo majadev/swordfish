@@ -1,0 +1,20 @@
+{
+  "name": "bokstore",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./app"
+  },
+  "author": "Andreas",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "body-parser": "^1.16.0",
+    "express": "^4.14.0",
+    "express-session": "^1.15.0",
+    "mongo": "^0.1.0",
+    "mongoose": "^4.7.8"
+  }
+}

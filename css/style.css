@@ -1,0 +1,22 @@
+@font-face {
+    font-family: Cinzel;
+    src: url(img/Cinzel-Regular.ttf);
+}
+
+body{ font-family: 'Lato', sans-serif;
+}
+
+img
+{
+width:100%;
+ }
+ #top #header .av-main-nav > li > a {
+font-family: 'Cinzel', 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.container {
+font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+

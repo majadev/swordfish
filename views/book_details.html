@@ -1,0 +1,32 @@
+<a href="#/books">Go Back</a>
+<div class="panel panel-default" ng-init="getBook()">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{book.event}}</h3>
+  </div>
+  <div class="panel-body">
+    <div class="row">
+      <div class="col-md-4">
+        <img ng-src="{{book.image_url}}">
+      </div>
+      <div class="col-md-8">
+        </p>{{book.description}}</p>
+        <ul class="list-group">
+          <li class="list-group-item">Genre: {{book.genre}}</li>
+          <li class="list-group-item">Leader: {{book.instructor}}</li>
+          <li class="list-group-item">Event creator: {{book.creator}}</li>
+          <li class="list-group-item">maximum attendees: {{book.registeredmax}}</li>
+          <li class="list-group-item">Date: {{book.date}}</li>
+          <li class="list-group-item">Location: {{book.location}}</li>
+          <li class="list-group-item">Attendees: {{book.quantity}}</li>
+        </ul>
+        <a target="_blank" href="#" class="btn btn-primary">Boka</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<form ng-submit="removeBook(book._id)">
+<div class="pull-right">
+<a href="#!/books/edit/{{book._id}}">Edit</a> |  <input type="submit" id="submit" value="Delete"/>
+</div>
+</form>
